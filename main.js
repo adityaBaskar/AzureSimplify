@@ -25,10 +25,8 @@ function redirect()
         butt.parentElement.appendChild(s2sbtn)
         butt.hidden = true
         sleep(500)
-        p2sbtn.onclick = function(){location.assign('https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fdemos%2Fdevtest-p2s-iis%2Fazuredeploy.json')}
+        p2sbtn.onclick = function(){location.assign('https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.network%2Fpoint-to-site-aad%2Fazuredeploy.json')}
         s2sbtn.onclick = function(){location.assign('https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fquickstarts%2Fmicrosoft.network%2Fsite-to-site-vpn-create%2Fazuredeploy.json')}        
-        // butt.hidden = true
-        // location.assign('https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2Fazure-quickstart-templates%2Fmaster%2Fdemos%2Fdevtest-p2s-iis%2Fazuredeploy.json');
     }
 }
 
